@@ -1,6 +1,6 @@
 # Share popout
 
-A call's pictures in a popout inside the app window, instead of a stage that splits the pane with the chat. Issue [#1736](https://github.com/rafaelcg/pqp/issues/1736). Runtime flag `share_popout`, per server, default off (`docs/FEATURE_FLAGS.md`). Web and desktop only.
+A call's pictures in a popout inside the app window, instead of a stage that splits the pane with the chat. [Issue 1736](https://github.com/rafaelcg/pqp/issues/1736). Runtime flag `share_popout`, per server, default off (`docs/FEATURE_FLAGS.md`). Web and desktop only.
 
 ## What a person sees
 

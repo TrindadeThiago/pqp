@@ -10,7 +10,7 @@ import WebRTC
 /// and hang up; sharing goes through the system broadcast picker, because a
 /// ReplayKit broadcast extension is the only way iOS lets an app send the screen.
 ///
-/// TODO(share-popout, #1736): the web's `share_popout` (a share arrives as
+/// TODO(share-popout, issue 1736): the web's `share_popout` (a share arrives as
 /// "Assistir" and plays in a popout that follows you across screens, maximize
 /// for the stage) is not here yet. This stage still receives and draws every
 /// share on arrival. The contract is `docs/SHARE_POPOUT.md`.

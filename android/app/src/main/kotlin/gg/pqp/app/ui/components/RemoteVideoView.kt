@@ -31,7 +31,7 @@ import gg.pqp.app.ui.theme.Sizes
 import gg.pqp.app.ui.theme.Spacing
 import gg.pqp.app.voice.RemoteVideoFeed
 
-// TODO(share-popout, #1736): the web's `share_popout` (a share arrives as
+// TODO(share-popout, issue 1736): the web's `share_popout` (a share arrives as
 // "Assistir" and plays in a popout that follows you across screens, maximize
 // for the stage) is not on Android yet; every share is still received and drawn
 // on arrival. The contract is `docs/SHARE_POPOUT.md`.

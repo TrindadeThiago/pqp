@@ -3353,7 +3353,7 @@ function MainAppContent({
       prefetchShareGuardFlag(voiceServerIdRef.current);
     }
   }, [voiceSeatChannelId]);
-  // Opt-in watching for the share popout (issue #1736): with `share_popout`
+  // Opt-in watching for the share popout (issue 1736): with `share_popout`
   // on for the call's server, a wide window and an ordinary voice room, a new
   // share waits for "Assistir" instead of arriving on screen. Read from the
   // share config the effect above prefetches; until it answers, it is off.
@@ -15566,7 +15566,7 @@ function MainAppContent({
         onFailed={() => setAppError(t("listingNudge.failed"))}
       />
 
-      {/* THE SHARE POPOUT (issue #1736): one picture from the call, over the
+      {/* THE SHARE POPOUT (issue 1736): one picture from the call, over the
           conversation area, in every channel. Mounted here, once, so walking
           to another channel never unbinds its video. */}
       {user && (
