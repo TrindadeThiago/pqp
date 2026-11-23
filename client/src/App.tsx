@@ -9062,7 +9062,12 @@ function MainAppContent({
      */
     watchOnly = false,
   ) {
-    voiceServerIdRef.current = null;
+    // A DM call has no server: every per-server switch reads the global
+    // answer. Saying so through `noteCallServer` (not only the ref) also clears
+    // the server the share fast start would otherwise keep from the last
+    // server call, and asks the share config before the join, which is where
+    // the share popout (`share_popout`) learns whether this call uses it.
+    noteCallServer(null);
     pendingVideoCallRef.current = withVideo ? channelId : null;
     void selectConversation(channelId);
     refreshIceServers();
